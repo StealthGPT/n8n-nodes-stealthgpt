@@ -1,0 +1,63 @@
+{
+	"name": "n8n-nodes-stealthgpt",
+	"version": "0.1.0",
+	"description": "n8n community node for StealthGPT: generate natural, human, publish-ready long-form content and humanize existing text via the async StealthGPT API.",
+	"keywords": [
+		"n8n-community-node-package",
+		"n8n",
+		"stealthgpt",
+		"content-generation",
+		"humanizer",
+		"ai-content",
+		"seo"
+	],
+	"license": "MIT",
+	"homepage": "https://github.com/StealthGPT/n8n-nodes-stealthgpt#readme",
+	"author": {
+		"name": "StealthGPT",
+		"email": "support@stealthgpt.ai"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/StealthGPT/n8n-nodes-stealthgpt.git"
+	},
+	"bugs": {
+		"url": "https://github.com/StealthGPT/n8n-nodes-stealthgpt/issues"
+	},
+	"engines": {
+		"node": ">=20.15"
+	},
+	"scripts": {
+		"build": "n8n-node build",
+		"build:watch": "tsc --watch",
+		"dev": "n8n-node dev",
+		"lint": "n8n-node lint",
+		"lint:fix": "n8n-node lint --fix",
+		"release": "n8n-node release",
+		"prepublishOnly": "n8n-node prerelease"
+	},
+	"files": [
+		"dist",
+		"CHANGELOG.md"
+	],
+	"n8n": {
+		"n8nNodesApiVersion": 1,
+		"strict": true,
+		"credentials": [
+			"dist/credentials/StealthGptApi.credentials.js"
+		],
+		"nodes": [
+			"dist/nodes/StealthGpt/StealthGpt.node.js"
+		]
+	},
+	"devDependencies": {
+		"@n8n/node-cli": "^0.33.1",
+		"eslint": "9.29.0",
+		"prettier": "3.6.2",
+		"release-it": "20.2.0",
+		"typescript": "5.9.3"
+	},
+	"peerDependencies": {
+		"n8n-workflow": "*"
+	}
+}
