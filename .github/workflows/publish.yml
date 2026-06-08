@@ -22,10 +22,12 @@ jobs:
       # npm >= 11.5.1 is required for OIDC trusted publishing
       - run: npm install -g npm@latest
       - run: npm ci
-      - run: npm run lint
-      - run: npm run build
-      # With npm trusted publishing configured for this package, no token is needed.
-      # As a fallback, set the NPM_TOKEN repository secret and it will be used automatically.
-      - run: npm publish --provenance --access public
+      # `npm run release` (n8n-node release) lints, builds and publishes with
+      # provenance in CI. With OIDC trusted publishing configured, no token is
+      # needed; otherwise the NPM_TOKEN repository secret is used as a fallback.
+      - name: Release (lint, build, publish with provenance)
+        run: |
+          [ -n "$NPM_TOKEN" ] && npm config set //registry.npmjs.org/:_authToken "$NPM_TOKEN"
+          npm run release
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
