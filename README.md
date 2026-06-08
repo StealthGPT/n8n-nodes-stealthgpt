@@ -6,16 +6,16 @@ StealthGPT turns prompts and existing drafts into **natural, human, publish-read
 
 [n8n](https://n8n.io) is a [fair-code licensed](https://docs.n8n.io/reference/license/) workflow automation platform.
 
-[Installation](#installation)
-[Operations](#operations)
-[Credentials](#credentials)
-[How it works (async runs)](#how-it-works-async-runs)
-[Example workflows](#example-workflows)
-[Billing & credits](#billing--credits)
-[Resources](#resources)
-[Support](#support)
-[License](#license)
-[Changelog](#changelog)
+- [Installation](#installation)
+- [Operations](#operations)
+- [Credentials](#credentials)
+- [How it works (async runs)](#how-it-works-async-runs)
+- [Example workflows](#example-workflows)
+- [Billing & credits](#billing--credits)
+- [Resources](#resources)
+- [Support](#support)
+- [License](#license)
+- [Changelog](#changelog)
 
 ## Installation
 
@@ -119,8 +119,8 @@ Runs consume StealthGPT credits. Completed runs return billing metadata such as 
 
 ## Support
 
+- Help Center: [stealthgpt.zendesk.com](https://stealthgpt.zendesk.com/)
 - Issues: [github.com/StealthGPT/n8n-nodes-stealthgpt/issues](https://github.com/StealthGPT/n8n-nodes-stealthgpt/issues)
-- Email: [support@stealthgpt.ai](mailto:support@stealthgpt.ai)
 
 ## License
 
