@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-stealthgpt",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "n8n community node for StealthGPT: generate natural, human, publish-ready long-form content and humanize existing text via the async StealthGPT API.",
 	"keywords": [
 		"n8n-community-node-package",
@@ -14,8 +14,8 @@
 	"license": "MIT",
 	"homepage": "https://github.com/StealthGPT/n8n-nodes-stealthgpt#readme",
 	"author": {
-		"name": "StealthGPT",
-		"email": "support@stealthgpt.ai"
+		"name": "XYZ AI LLC",
+		"email": "danil@stealthgpt.ai"
 	},
 	"repository": {
 		"type": "git",
