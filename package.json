@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-stealthgpt",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "n8n community node for StealthGPT: generate natural, human, publish-ready long-form content and humanize existing text via the async StealthGPT API.",
 	"keywords": [
 		"n8n-community-node-package",
