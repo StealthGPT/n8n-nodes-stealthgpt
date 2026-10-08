@@ -119,7 +119,7 @@ Runs consume StealthGPT credits. Completed runs return billing metadata such as 
 
 ## Support
 
-- Help Center: [stealthgpt.zendesk.com](https://stealthgpt.zendesk.com/)
+- Email: [support@stealthgpt.ai](mailto:support@stealthgpt.ai)
 - Issues: [github.com/StealthGPT/n8n-nodes-stealthgpt/issues](https://github.com/StealthGPT/n8n-nodes-stealthgpt/issues)
 
 ## License
